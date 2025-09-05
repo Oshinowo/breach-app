@@ -13,8 +13,7 @@ import '../features/interests/view/interests_screen.dart';
 import '../features/welcome/view/welcome_screen.dart';
 
 var router = GoRouter(
-  initialLocation: DashboardScreen.id,
-  // initialLocation: BottomNavBar.home,
+  initialLocation: BottomNavBar.home,
   routes: <RouteBase>[
     GoRoute(
       path: BottomNavBar.home,
